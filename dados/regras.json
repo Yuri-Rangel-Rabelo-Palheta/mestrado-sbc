@@ -1,0 +1,26 @@
+{
+    "divisao_tempo": {
+        "long_prazo": {
+            "aulas": 0.5,
+            "revisao": 0.3,
+            "exercicios": 0.2
+        },
+        "curto_prazo": {
+            "aulas": 0.3,
+            "revisao": 0.4,
+            "exercicios": 0.3
+        }
+    },
+    "prioridades": {
+        "long_prazo": {
+            "alto": 0.5,
+            "medio": 1.0,
+            "baixo": 1.5
+        },
+        "curto_prazo": {
+            "alto": 1.0,
+            "medio": 1.5,
+            "baixo": 0.5
+        }
+    }
+}
