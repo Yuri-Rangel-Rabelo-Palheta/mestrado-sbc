@@ -152,7 +152,7 @@ def menu():
     dias_disponiveis = input("Informe os dias disponíveis para estudo (ex.: seg, ter, qua): ").split(",")
     dias_disponiveis = [dia.strip() for dia in dias_disponiveis]
     print(f"Dias disponíveis para estudo: {dias_disponiveis}")
-    tempo_total = float(input("Informe o total de horas disponíveis para estudo por matéria: "))
+    tempo_total = float(input("Informe o total de horas disponíveis para estudo: "))
     dias_restantes = int(input("Informe o número de dias restantes até a prova: "))
 
     print("\nInforme seu nível de conhecimento para cada área (alto, medio, baixo):")

@@ -1,0 +1,22 @@
+trabalho sobre o tráfico humano
+
+criado por Yuri Rangel 
+Mestrado, UFPA-Tucurui
+
+------------------------------------------------------------------------
+
+estrutura:
+
+cbr_trafico_humano/
+├── data/
+│   ├── dataset.csv                  # Base de dados com informações de vítimas e perpetradores
+├── src/
+│   ├── __init__.py                  # Arquivo para definir o diretório como um pacote Python
+│   ├── preprocessing.py             # Funções de pré-processamento de dados
+│   ├── cbr_model.py                 # Implementação do sistema CBR usando o CBRkit
+│   ├── evaluation.py                # Funções para avaliar o desempenho do sistema
+├── notebooks/
+│   ├── exploratory_analysis.ipynb   # Análise exploratória dos dados
+├── main.py                          # Script principal para rodar o sistema
+├── requirements.txt                 # Dependências do projeto
+├── README.md                        # Documentação do projeto
